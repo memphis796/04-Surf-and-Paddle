@@ -8,10 +8,255 @@
 
 body {
   margin: 0;
-  background-color: red;
 }
+
 .ocean__waves {
+  max-width: 100%;
+  background-image: url("http://www.thisiscolossal.com/wp-content/uploads/2015/02/Carreau5793.jpg");
+  background-size: cover;
+}
 
+.top-nav {
+  display: flex;
+  font-family: myriad pro;
+  line-height: 5em;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0em 10em 0 8em;
 
+}
 
-  }
+.top-nav__left {
+  flex-grow: 1;
+}
+
+.logo {
+  vertical-align: middle;
+  border-radius: 8em;
+}
+
+.company {
+  color: #083757;
+  text-decoration: none;
+}
+
+.top-nav__right {
+  font-family: avenir next condensed;
+  font-size: 20px;
+}
+
+.info, .search {
+  text-decoration: none;
+  color: #073351;
+  font-weight: 600;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 3em;
+}
+
+.image {
+  vertical-align: middle;
+  border-radius: 28px;
+}
+
+.hero__title {
+  color: white;
+  font-family: myriad pro;
+  font-size: 8em;
+  font-weight: lighter;
+  margin-bottom: -35px;
+}
+
+.hero__subtitle {
+  font-family: myriad pro;
+  font-size: 20px;
+  margin-top: 0;
+  padding-bottom: 10em;
+  color: #06314D;
+}
+
+.container {
+  max-width: 65rem;
+  margin: auto;
+  display: flex;
+  min-height: 100vh;
+}
+
+.head {
+  font-family: myriad pro;
+  font-size: 62px;
+  font-weight: 800;
+  color: #083452;
+  line-height: 70px;
+  margin-bottom: 0;
+}
+
+.content__pic {
+  width: 2rem;
+  vertical-align: middle;
+  border-radius: 2em;
+}
+
+.author__name {
+  font-family: sans-serif;
+  color: #2675B6;
+  flex: auto;
+  display: inline-flex;
+}
+
+.content {
+  max-width: 70%;
+  padding-right: 5em;
+  flex-grow: 1;
+}
+
+.about__text {
+  line-height: 20px;
+}
+
+.radical {
+  color: #0E6CB2;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  max-width: 30%;
+  font-family: sans-serif;
+  max-height: 50%;
+}
+
+.sidebar__author-pic {
+  padding: 5em 0 0 6em;
+}
+
+ .sidebar__author-name, .social__links {
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+.tweet__nav, .face__nav, .Insta__nav {
+  color:#AFBDC7;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 2px;
+}
+
+.sidebar__author-name {
+  font-size: 1em;
+  color: #0D6AB1;
+}
+
+.sidebar__main-pic {
+  margin-top: 3em;
+}
+
+.ad__content {
+  margin-left: 198px;
+  color: #AFBDC7;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.sidebar__heading  {
+margin-bottom: 0;
+font-family: myriad pro;
+font-weight: 100;
+}
+
+.sidebar__paragraph {
+  margin-top: 0;
+}
+
+.main-nav__bottom {
+  max-width: 28em;
+}
+
+.main-nav__icon {
+  background-color: #5E686F;
+}
+
+.main-nav__icon--darkblue {
+  background-color: #083452;
+  padding-bottom: 2px;
+}
+
+.main-nav__icon-image{
+  border-radius: 2px;
+  padding-top: 8px;
+}
+.main-nav__item {
+  color: white;
+  background-color: #A3B3BF;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 10px;
+  padding: 1em;
+}
+
+.main-nav__item--blue {
+  background-color: #106DB3;
+}
+
+.main-nav__posts {
+  display: flex;
+}
+
+.posts {
+  text-align: center;
+  font-size: 5em;
+  font-weight: 600;
+  font-family: avenir next condensed;
+  margin-bottom: 0;
+}
+
+.other-posts {
+  display: flex;
+}
+
+.other-post-item {
+  flex-grow: 1;
+  position: relative;
+}
+
+.other-post-pic {
+  width: 100%;
+  bottom: 1rem;
+  padding-bottom: 2px;
+}
+
+.other-post-text {
+  position: absolute;
+  bottom: 1rem;
+  color: white;
+  left: 1rem;
+  font-family: myriad pro;
+}
+
+.article__post-brands {
+  background-color: #083452;
+  display: flex;
+  color: white;
+  padding: 2em;
+  font-family: myriad pro;
+}
+
+.copyright {
+  flex-grow: 1;
+  justify-content: space-around;
+ }
+
+.ironyard-image  {
+  color: red;
+  max-width: 35%;
+  vertical-align: middle;;
+}
+
+.nav-footer__link {
+color: white;
+padding-left: 2em;
+padding-right: 15px;
+border-right: 2px solid white;
+}
